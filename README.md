@@ -10,6 +10,18 @@ Plugin untuk membuat **slide notulensi FGD** 16:9 dengan branding CRS Ecosystem,
 - Catatan disusun bertingkat **Heading → Sub-heading → Poin**, otomatis dibagi ke 2 kolom atau slide lanjutan bila panjang.
 - **Cek diksi negatif**: `scripts/cek_diksi.py` menandai kata seperti *gagal, telat, buruk, masalah*. Claude menawarkan opsi yang lebih positif dan meminta konfirmasi dulu. Tidak ada kata yang diganti tanpa persetujuan.
 
+## Pasang plugin
+
+**Claude (aplikasi desktop / claude.ai):** buka **Customize → Plugins → Add marketplace**, masukkan `benediktussatrio111-create/crs-notulis-fgd`, lalu klik **Install** pada plugin `crs-notulis-fgd`. Nyalakan **Sync automatically** agar selalu mendapat versi terbaru.
+
+**Claude Code:**
+
+```
+/plugin install crs-notulis-fgd --marketplace benediktussatrio111-create/crs-notulis-fgd
+```
+
+atau dua langkah: `/plugin marketplace add benediktussatrio111-create/crs-notulis-fgd` lalu `/plugin install crs-notulis-fgd@crs-ecosystem-notulis`.
+
 ## Cara pakai
 
 Minta Claude: "buatkan template notulis FGD", "template notulensi kosongan untuk Technical Meetup", atau kirim catatan mentah dan minta "rapikan jadi notulensi FGD".

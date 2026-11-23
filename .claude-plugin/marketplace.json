@@ -1,0 +1,14 @@
+{
+  "name": "crs-ecosystem-notulis",
+  "description": "Marketplace CRS Ecosystem: template notulensi FGD",
+  "owner": {
+    "name": "CRS Ecosystem"
+  },
+  "plugins": [
+    {
+      "name": "crs-notulis-fgd",
+      "source": "./",
+      "description": "Membuat slide notulensi FGD 16:9 bergaya CRS Ecosystem: format Heading, Sub-heading, Poin, cek diksi negatif dengan konfirmasi, satu slide per kelompok FGD."
+    }
+  ]
+}
