@@ -1,0 +1,32 @@
+:root {
+  --bg: #f6f8fc;
+  --surface: #ffffff;
+  --border: #e7ebf3;
+  --divider: #eef1f6;
+  --ink: #0b1220;
+  --muted: #5b6478;
+  --blue: #2563eb;
+  --produksi: #be185d;
+  --marketing: #c2410c;
+  --financial: #b45309;
+  --sdm: #047857;
+}
+body { font-family: 'Inter', Arial, sans-serif; color: var(--ink); }
+section.s { display: flex; flex-direction: column; gap: 36px; padding: 128px 128px 160px; background: var(--bg); }
+.head { display: flex; flex-direction: column; gap: 12px; }
+.eyebrow { font-size: 24px; font-weight: 700; letter-spacing: 5px; }
+.title { font-size: 76px; font-weight: 800; line-height: 1.05; letter-spacing: -3px; color: var(--ink); }
+.meta { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
+.mcard { display: flex; flex-direction: column; gap: 6px; padding: 20px 32px; background: var(--surface); border: 2px solid var(--border); border-radius: 24px; }
+.mcard .k { font-size: 24px; font-weight: 800; letter-spacing: 3px; color: var(--muted); }
+.mcard .v { font-size: 32px; font-weight: 700; color: var(--ink); }
+.notes { flex: 1; display: flex; flex-direction: column; gap: 16px; padding: 32px 44px; background: var(--surface); border: 2px solid var(--border); border-radius: 32px; }
+.notes .k { font-size: 24px; font-weight: 800; letter-spacing: 3px; color: var(--blue); }
+.notes ul { font-size: 32px; line-height: 1.45; color: var(--ink); }
+.c-produksi { color: var(--produksi); }
+.c-marketing { color: var(--marketing); }
+.c-financial { color: var(--financial); }
+.c-sdm { color: var(--sdm); }
+.foot { position: absolute; left: 128px; bottom: 64px; width: 1000px; font-size: 24px; color: var(--muted); }
+.page { position: absolute; right: 128px; bottom: 64px; width: 200px; font-size: 24px; font-weight: 700; text-align: right; color: var(--ink); }
+.page .n { color: var(--blue); }
