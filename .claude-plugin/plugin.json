@@ -1,7 +1,7 @@
 {
   "name": "crs-notulis-fgd",
-  "version": "0.1.0",
-  "description": "Membuat template notulis FGD berbentuk slide 16:9 dengan branding CRS Ecosystem, satu slide kosong per kelompok FGD.",
+  "version": "0.2.0",
+  "description": "Membuat slide notulensi FGD 16:9 bergaya CRS Ecosystem: format Heading, Sub-heading, Poin, cek diksi negatif dengan konfirmasi, satu slide per kelompok FGD.",
   "author": { "name": "CRS Ecosystem" },
   "keywords": ["notulensi", "fgd", "crs", "template", "slide"]
 }

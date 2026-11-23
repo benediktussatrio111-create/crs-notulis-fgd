@@ -1,0 +1,50 @@
+{
+  "acara": {
+    "nama": "Technical Meetup",
+    "organisasi": "CRS Ecosystem",
+    "tanggal": "Selasa, 24 November 2026",
+    "tempat": "Aruss Hotel"
+  },
+  "slides": [
+    {
+      "type": "notulensi",
+      "nomor": "01",
+      "id": "produksi",
+      "nama": "Produksi",
+      "lokasi": "Resto Lt. 11 · Indoor",
+      "pj": "…",
+      "notulis": "…",
+      "catatan": []
+    },
+    {
+      "type": "notulensi",
+      "nomor": "02",
+      "id": "marketing",
+      "nama": "Marketing",
+      "lokasi": "Ruang Progo · Lt. 5",
+      "pj": "…",
+      "notulis": "…",
+      "catatan": []
+    },
+    {
+      "type": "notulensi",
+      "nomor": "03",
+      "id": "financial",
+      "nama": "Financial",
+      "lokasi": "Resto Lt. 3 · Indoor",
+      "pj": "…",
+      "notulis": "…",
+      "catatan": []
+    },
+    {
+      "type": "notulensi",
+      "nomor": "04",
+      "id": "sdm",
+      "nama": "SDM",
+      "lokasi": "Resto Lt. 3 · Outdoor",
+      "pj": "…",
+      "notulis": "…",
+      "catatan": []
+    }
+  ]
+}
